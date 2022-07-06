@@ -1,7 +1,6 @@
 # MR.JOKER
 Crack Akun BociL
 
-# Alat Ini Gratis Buat Bocil2 Ngaku Hacker
 #  MENU
 ![20220625_173132](https://user-images.githubusercontent.com/105783602/175767709-36bff59c-0cf9-418d-a825-494cbaff680e.jpg)
 
@@ -24,7 +23,7 @@ Crack Akun BociL
 
  rm -rf MR.JOKER
 
- git clone https://github.com/ChangFB/MR.JOKER
+ git clone https://github.com/SMRmilon01/MR.JOKER
 
  cd MR.JOKER
  
@@ -40,9 +39,4 @@ git pull
 python2 run.py
 ```
 
-# Instalation
-Download apk Termuxnya disini biar ngga error ✓
-[Klik Disini](https://f-droid.org/repo/com.termux_117.apk)👍
-```bash
 
-```
