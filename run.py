@@ -83,24 +83,24 @@ def kotak():
 """%(orange,M,orange))
 def banner():
 	print("""%s
-\x1b[1;95m░██████╗███╗░░░███╗██████╗░░░░  ░░░░░██╗░█████╗░██╗░░██╗██████╗░██████╗░
-\x1b[1;95m██╔════╝████╗░████║██╔══██╗░░░  ░░░░░██║██╔══██╗██║░██╔╝╚════██╗██╔══██╗
-\x1b[1;95m╚█████╗░██╔████╔██║██████╔╝░░░  ░░░░░██║██║░░██║█████═╝░░█████╔╝██████╔╝
-\x1b[1;95m░╚═══██╗██║╚██╔╝██║██╔══██╗░░░  ██╗░░██║██║░░██║██╔═██╗░░╚═══██╗██╔══██╗
-\x1b[1;95m██████╔╝██║░╚═╝░██║██║░░██║██╗  ╚█████╔╝╚█████╔╝██║░╚██╗██████╔╝██║░░██║
-\x1b[1;95m╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝  ░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝
+\x1b[1;95m███╗░░░███╗██████╗░░░░  ░░░░░██╗░█████╗░██╗░░██╗██████╗░██████╗░
+\x1b[1;95m████╗░████║██╔══██╗░░░  ░░░░░██║██╔══██╗██║░██╔╝╚════██╗██╔══██╗
+\x1b[1;95m██╔████╔██║██████╔╝░░░  ░░░░░██║██║░░██║█████═╝░░█████╔╝██████╔╝
+\x1b[1;95m██║╚██╔╝██║██╔══██╗░░░  ██╗░░██║██║░░██║██╔═██╗░░╚═══██╗██╔══██╗
+\x1b[1;95m██║░╚═╝░██║██║░░██║██╗  ╚█████╔╝╚█████╔╝██║░╚██╗██████╔╝██║░░██║
+\x1b[1;95m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝  ░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝
 \x1b[38;5;46mWhatsApp\x1b[1;95m : \x1b[38;5;46m+8801307070707"""%(P))
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('\n%s\033[33m[\x1b[1;92m1\033[33m] \x1b[0;34mLogin Via Cookie \n\033[33m[\x1b[1;92m2\033[33m] \x1b[0;34mCara Mendapatkan Token & Cookie \n\033[33m[\x1b[%s\x1b[1;92m0%s\033[33m] Keluar'%(P,M,P))
-    mbo = raw_input('\n%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mPilih Menu : %s'%(P,H))
+    print ('\n%s\033[33m[\x1b[1;92m1\033[33m] \x1b[0;34mLogin Via Cookie \n\033[33m[\x1b[1;92m2\033[33m] \x1b[0;34mCara Mendapatkan Token & Cookie \n\033[33m[\x1b[%s\x1b[1;92m0%s\033[33m] Back'%(P,M,P))
+    mbo = raw_input('\n%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mChoice Menu : %s'%(P,H))
     if mbo in(""):
     	print("%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mIsi Yang Benar Kentod "%(M));exit()
     elif mbo in ('1','01'):
-        jalan("\n%s [%s✓%s] Wajib Gunakan Akun Tumbal Dilarang Akun Utama"%(P,M,P))
-    	romz = raw_input('%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mCookie : %s'%(P,H))
+        jalan("\n%s [%s✓%s] Welcome to SMR White Devil Hacker site"%(P,M,P))
+    	romz = raw_input('%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mPast Your Cookie : %s'%(P,H))
         if romz in(""):
         	print("%s\033[33m[\x1b[1;92m✓\033[33m] \x1b[0;34mIsi Yang Benar Kentod "%(M));exit()
     	try:
